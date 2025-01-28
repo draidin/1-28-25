@@ -1,0 +1,18 @@
+import math 
+def find_smallest(x, y, z):
+    #if x is smaller than y and if x is smaller than z
+     if x<y and x<z:
+         print("x is smallest")
+         return x
+     
+    #if y is bigger than x and if y is smaller than z
+     elif y<x and y<z:
+         print("y is smallest")
+         return y
+     
+    #if z is bigger than x and if z is bigger than y
+     elif z<x  and z<y:
+         print("z is smallest")
+         return z
+         
+print(find_smallest(5, 3, 8))
